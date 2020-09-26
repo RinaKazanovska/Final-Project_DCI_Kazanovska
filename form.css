@@ -1,0 +1,21 @@
+label {
+    width: 140px;
+    display: inline-block;
+}
+label[for="news"] {
+    width: auto;
+}
+input[type="text"],
+input[type="email"] {
+    width: 240px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+textarea {
+    width: 242px;
+    height: 200px;
+    padding: 10px;
+    resize: none;
+}

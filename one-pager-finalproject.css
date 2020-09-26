@@ -1,0 +1,188 @@
+/* For a smooth scrolling effect */
+html {
+    scroll-behavior: smooth
+}
+
+/* This ensures that each section fills at least 100% of the browser window height (vh = viewport height). Can be removed if enough content is inserted into the sections. */
+section {
+    min-height: 100vh;
+}
+
+.Schedule {
+    background-image: url(lotus.jpg);
+}
+
+.About,
+.MomsYoga,
+KidsYoga {
+    background-color: #FCFFF0;
+
+}
+
+
+}
+
+article {
+    color: black;
+
+}
+
+p {
+    font-size: 20px;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    background-color: #E3CFFA;
+
+}
+
+h2 {
+    margin-top: 10px;
+    scroll-margin-top: 50px;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Ranchers', cursive;
+
+}
+
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #111;
+}
+
+header {
+    position: relative;
+}
+
+.soc-links {
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+
+main {
+    margin: 20px;
+}
+
+nav {
+    background-color: lemonchiffon;
+    padding: 5px 0;
+    box-shadow: 0 5px 10px #333;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 15px;
+    color: dimgray;
+    background-color: lemonchiffon;
+    font-size: 20px;
+    font-family: Helvetica;
+    border-right: 1px solid dimgrey;
+    width: 20%;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: gray;
+    color: #fff;
+}
+
+nav a:active {
+    background: light-cyan;
+}
+
+/*header {
+            background-size: cover;
+            height: 80px; */
+}
+
+label {
+    width: 140px;
+    display: inline-block;
+}
+
+label[for="news"] {
+    width: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 240px;
+    padding: 10px;
+
+    border-bottom: 1px solid grey;
+
+
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+
+
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+textarea {
+    width: 242px;
+    height: 200px;
+    padding: 10px;
+    resize: none;
+
+}
+
+section:last-child {
+    background-image: url(contact.jpg);
+    background-size: cover;
+
+}
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: gray;
+    color: white;
+    
+}
+
+ion-icon {
+    font-size: 30px;
+    color: blue;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+[name="logo-twitter"] {
+    color: green;
+}
+
+a:hover ion-icon {
+    color: lightslategray;
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
